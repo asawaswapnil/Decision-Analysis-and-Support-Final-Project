@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="BirthCare">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="PregnancyCare">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="PostnatalCare">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="SicknewbornCare">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Qualification">
+			<state id="Yes" />
+			<state id="NO" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Data_Science_Maternal_Child_Health_Africa">
+			<state id="Y" />
+			<state id="N" />
+			<parents>BirthCare PregnancyCare PostnatalCare SicknewbornCare Qualification</parents>
+			<probabilities>1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="Copy_of_NotDevelopingCountries">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="OnlyAInclrementalImporvement">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="safetyRisks">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="notbeneficalPractices">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Copy_of_NotClearlyArticulated">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Lackproperplan">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NotASingleTechnology">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NewPerspective">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Biodata">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Copy_of_NotAGoodTech">
+			<state id="y" />
+			<state id="n" />
+			<parents>Copy_of_NotDevelopingCountries OnlyAInclrementalImporvement safetyRisks notbeneficalPractices Copy_of_NotClearlyArticulated Copy_of_Lackproperplan NotASingleTechnology NewPerspective Biodata</parents>
+			<probabilities>1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="WearableSensor">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="AIforPathientImageAnalysis">
+			<state id="Y" />
+			<state id="NN" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="MaterialScience">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="SyntheticBiology">
+			<state id="y" />
+			<state id="n" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="DNASequencingDataAnalytics">
+			<state id="Y" />
+			<state id="NN" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Robotics">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Microscopy">
+			<state id="Y" />
+			<state id="N" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="EmergingTechForGlobalHealth">
+			<state id="y" />
+			<state id="n" />
+			<parents>Copy_of_NotAGoodTech WearableSensor AIforPathientImageAnalysis MaterialScience SyntheticBiology DNASequencingDataAnalytics Robotics Microscopy</parents>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="typhoidWithoutEnviormentFocus">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="LabBasedStudyOnly">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NotFocussedonThypibut_Salmonella">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NotFund">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>typhoidWithoutEnviormentFocus LabBasedStudyOnly NotFocussedonThypibut_Salmonella</parents>
+			<probabilities>1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="HowTyphoidCause">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="AntibioticsInteraction">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Research_ThpyiinSoilandWaterMicrobes">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="RoleOfEnviornment">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Typhi">
+			<state id="y" />
+			<state id="n" />
+			<parents>NotFund HowTyphoidCause AntibioticsInteraction Research_ThpyiinSoilandWaterMicrobes RoleOfEnviornment</parents>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="NotDevelopingCountries">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="onlyAInclrementalImporvement">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="SafetyRisks">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NotbeneficalPractices">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NotClearlyArticulated">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Lackproperplan">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="SMSOnly">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NeedsFinancialIncentives">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NotAGoodTech">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>NotDevelopingCountries onlyAInclrementalImporvement SafetyRisks NotbeneficalPractices NotClearlyArticulated Lackproperplan SMSOnly NeedsFinancialIncentives</parents>
+			<probabilities>1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="MultipleCountrySetting">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="ImproveCaregiverConvinience">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="NotIncreaseBurdonForHealthWorker">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="SocialEcoBehaviourResearch">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>1 0</probabilities>
+		</cpt>
+		<cpt id="Location">
+			<state id="Africa" />
+			<state id="US" />
+			<state id="Other" />
+			<probabilities>0.5 0.5 0</probabilities>
+		</cpt>
+		<cpt id="ImporveCaregiverKnowledge">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="HCI">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Vaccination">
+			<state id="y" />
+			<state id="n" />
+			<parents>NotAGoodTech MultipleCountrySetting ImproveCaregiverConvinience NotIncreaseBurdonForHealthWorker SocialEcoBehaviourResearch Location ImporveCaregiverKnowledge HCI</parents>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="Resources">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Funded_before_by_BMGF">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="Accessiblity_">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="legal_status">
+			<state id="Clear" />
+			<state id="NotClear" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<utility id="ls">
+			<parents>legal_status</parents>
+			<utilities>1 0</utilities>
+		</utility>
+		<cpt id="Past_success">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.7 0.3</probabilities>
+		</cpt>
+		<cpt id="Past_Relevant_History">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.99 0.01</probabilities>
+		</cpt>
+		<cpt id="Past_App">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.99 0.01</probabilities>
+		</cpt>
+		<cpt id="team_profile">
+			<state id="Relevant" />
+			<state id="Not_Relevant" />
+			<probabilities>0.99 0.01</probabilities>
+		</cpt>
+		<utility id="fbbb">
+			<parents>Funded_before_by_BMGF</parents>
+			<utilities>0.9 0.5</utilities>
+		</utility>
+		<utility id="pa">
+			<parents>Past_App</parents>
+			<utilities>0.99 0.1</utilities>
+		</utility>
+		<utility id="past">
+			<parents>Past_Relevant_History</parents>
+			<utilities>1 0.5</utilities>
+		</utility>
+		<utility id="ps">
+			<parents>Past_success</parents>
+			<utilities>1 0.5</utilities>
+		</utility>
+		<utility id="tp">
+			<parents>team_profile</parents>
+			<utilities>1 0.5</utilities>
+		</utility>
+		<maux id="Past">
+			<parents>fbbb pa past ps tp</parents>
+			<expression>fbbb*past*ps*tp*pa</expression>
+		</maux>
+		<cpt id="MoneyRequired">
+			<state id="Low" />
+			<state id="Med" />
+			<state id="Large" />
+			<probabilities>0.2 0.5 0.3</probabilities>
+		</cpt>
+		<cpt id="Future_Funding_Needs">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.3 0.7</probabilities>
+		</cpt>
+		<cpt id="Current_Progress">
+			<state id="Low" />
+			<state id="Medium" />
+			<state id="High" />
+			<probabilities>0.1 0.3 0.6</probabilities>
+		</cpt>
+		<cpt id="Self_Sustainence">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Solution_Feasiblity">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.99 0.01</probabilities>
+		</cpt>
+		<cpt id="Current_Funding">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.7 0.3</probabilities>
+		</cpt>
+		<utility id="ffn">
+			<parents>Future_Funding_Needs</parents>
+			<utilities>0.3 1</utilities>
+		</utility>
+		<cpt id="Other_imp_info">
+			<state id="Positive" />
+			<state id="Negative" />
+			<probabilities>0.99 0.01</probabilities>
+		</cpt>
+		<cpt id="Current_Solution">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.55 0.45</probabilities>
+		</cpt>
+		<cpt id="Other_projetcs_targeting_same_problem">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.4 0.6</probabilities>
+		</cpt>
+		<utility id="cs">
+			<parents>Current_Solution</parents>
+			<utilities>1 0.6</utilities>
+		</utility>
+		<utility id="oii">
+			<parents>Other_imp_info</parents>
+			<utilities>1 0.5</utilities>
+		</utility>
+		<utility id="optsp">
+			<parents>Other_projetcs_targeting_same_problem</parents>
+			<utilities>0.5 1</utilities>
+		</utility>
+		<maux id="alternatives">
+			<parents>cs oii optsp</parents>
+			<expression>oii*cs*optsp</expression>
+		</maux>
+		<cpt id="Building_CapitalCampaigns">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="DirectDonation_IndividualGrants">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="Political_issues_">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="Religious_purposes">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="Solving_Health_Issues_in_developed_countries">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="negative_set_problem">
+			<state id="Approve" />
+			<state id="Reject" />
+			<parents>DirectDonation_IndividualGrants Solving_Health_Issues_in_developed_countries Political_issues_ Building_CapitalCampaigns Religious_purposes</parents>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0</probabilities>
+		</cpt>
+		<cpt id="Set_of_Problems">
+			<state id="Appove" />
+			<state id="Reject" />
+			<parents>Data_Science_Maternal_Child_Health_Africa EmergingTechForGlobalHealth Typhi Vaccination</parents>
+			<probabilities>1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="Proposed_Magnitude_of_change">
+			<state id="a__1" />
+			<state id="a_1000" />
+			<state id="a_1000000" />
+			<state id="a_1000000000" />
+			<state id="a_10000000000" />
+			<probabilities>0.2 0.2 0.2 0.2 0.2</probabilities>
+		</cpt>
+		<utility id="cf">
+			<parents>Current_Funding</parents>
+			<utilities>1 0.9</utilities>
+		</utility>
+		<utility id="cp">
+			<parents>Current_Progress</parents>
+			<utilities>0.5 0.8 1</utilities>
+		</utility>
+		<utility id="mr">
+			<parents>MoneyRequired</parents>
+			<utilities>1 0.8 0.6</utilities>
+		</utility>
+		<utility id="sf">
+			<parents>Solution_Feasiblity</parents>
+			<utilities>1 0</utilities>
+		</utility>
+		<utility id="ss">
+			<parents>Self_Sustainence</parents>
+			<utilities>1 0.8</utilities>
+		</utility>
+		<maux id="TalkMoney">
+			<parents>cf cp ffn mr sf ss</parents>
+			<expression>1*cf*1*mr*ffn*cp*ss*sf</expression>
+		</maux>
+		<utility id="nsp">
+			<parents>negative_set_problem</parents>
+			<utilities>1 0</utilities>
+		</utility>
+		<utility id="pmoc">
+			<parents>Proposed_Magnitude_of_change</parents>
+			<utilities>0 0 0.9 0.99 1</utilities>
+		</utility>
+		<utility id="a">
+			<parents>Accessiblity_</parents>
+			<utilities>0.99 0.01</utilities>
+		</utility>
+		<utility id="r">
+			<parents>Resources</parents>
+			<utilities>0.99 0.1</utilities>
+		</utility>
+		<maux id="poh">
+			<parents>a ls r</parents>
+			<expression>ls*a*r</expression>
+		</maux>
+		<utility id="sop">
+			<parents>Set_of_Problems</parents>
+			<utilities>1 0</utilities>
+		</utility>
+		<maux id="Final_Decision">
+			<parents>Past TalkMoney alternatives nsp pmoc poh sop</parents>
+			<expression>Past*TalkMoney*alternatives*pmoc*poh*nsp*sop</expression>
+		</maux>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.3.3828.0 ACADEMIC" name="dadss" faultnameformat="nodestate">
+			<node id="Resources">
+				<name>Resources</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1419 1201 1487 1243</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Funded_before_by_BMGF">
+				<name>Funded before by BMGF</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1177 1288 1269 1345</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Accessiblity_">
+				<name>Accessiblity </name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1413 1086 1486 1131</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="legal_status">
+				<name>legal_status</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1242 1054 1313 1098</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Past_success">
+				<name>Past_success</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>764 1401 848 1453</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Proposed_Magnitude_of_change">
+				<name>Proposed_Magnitude_of_change</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1140 709 1308 814</position>
+				<barchart active="true" width="128" height="108" />
+			</node>
+			<node id="MoneyRequired">
+				<name>MoneyRequired</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>720 858 856 925</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="DirectDonation_IndividualGrants">
+				<name>DirectDonation/IndividualGrants</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>562 1111 674 1176</position>
+				<barchart active="true" width="81" height="54" />
+			</node>
+			<node id="Solving_Health_Issues_in_developed_countries">
+				<name>Solving Health Issues in developed countries</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>557 1290 680 1366</position>
+				<barchart active="true" width="81" height="54" />
+			</node>
+			<node id="Political_issues_">
+				<name>Political issues </name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>588 1200 674 1253</position>
+				<barchart active="true" width="81" height="54" />
+			</node>
+			<node id="Building_CapitalCampaigns">
+				<name>Building_CapitalCampaings</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>553 1042 667 1104</position>
+				<barchart active="true" width="81" height="54" />
+			</node>
+			<node id="Religious_purposes">
+				<name>Religious purposes</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>554 916 657 980</position>
+				<barchart active="true" width="81" height="54" />
+			</node>
+			<node id="negative_set_problem">
+				<name>negative_set_problem</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>787 1118 888 1181</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="team_profile">
+				<name>Team Profile</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>942 1459 1053 1510</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Past_App">
+				<name>Past_App</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1131 1422 1230 1477</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Current_Progress">
+				<name>Current_Progress</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>884 676 1002 755</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Past_Relevant_History">
+				<name>Past Relevant_History</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>737 1290 836 1347</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Solution_Feasiblity">
+				<name>Solution_Feasiblity</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1039 846 1139 908</position>
+				<barchart active="true" />
+			</node>
+			<node id="Current_Funding">
+				<name>Current_Funding</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>728 949 850 1024</position>
+				<barchart active="true" />
+			</node>
+			<node id="Current_Solution">
+				<name>Current_Solution</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1409 735 1528 804</position>
+				<barchart active="true" />
+			</node>
+			<node id="Other_projetcs_targeting_same_problem">
+				<name>Other_projetcs_targeting_same_problem</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1525 792 1659 873</position>
+				<barchart active="true" />
+			</node>
+			<node id="Self_Sustainence">
+				<name>Self_Sustainence</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>981 757 1105 825</position>
+				<barchart active="true" />
+			</node>
+			<node id="Future_Funding_Needs">
+				<name>Future_Funding_Needs</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>756 751 887 829</position>
+				<barchart active="true" />
+			</node>
+			<node id="Other_imp_info">
+				<name>Other_imp_info</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1290 803 1433 881</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Past">
+				<name>Past</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>969 1306 1048 1357</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="alternatives">
+				<name>alternatives</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1433 954 1530 1014</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Final_Decision">
+				<name>Final_Decision</name>
+				<interior color="ffff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>949 1030 1090 1091</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Data_Science_Maternal_Child_Health_Africa">
+				<name>Data_Science_Maternal_Child_Health_Africa</name>
+				<interior color="99cc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>152 240 316 332</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="EmergingTechForGlobalHealth">
+				<name>EmergingTechForGlobalHealth</name>
+				<interior color="99cc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>452 492 611 591</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Typhi">
+				<name>Typhi</name>
+				<interior color="99cc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1044 400 1206 486</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Vaccination">
+				<name>Vaccination</name>
+				<interior color="99cc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1519 614 1656 678</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="PregnancyCare">
+				<name>PregnancyCare</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>36 323 124 378</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="BirthCare">
+				<name>BirthCare</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>177 355 251 408</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="PostnatalCare">
+				<name>PostnatalCare</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>32 244 112 294</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="SicknewbornCare">
+				<name>SicknewbornCare</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>38 171 134 224</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Qualification">
+				<name>Qualification</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>188 153 259 197</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<textbox>
+				<caption>Data scienctists, bioinformatitions, etc.</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>439 139 625 151</position>
+			</textbox>
+			<node id="AIforPathientImageAnalysis">
+				<name>AIforPathientImageAnalysis</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>476 -4 617 84</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="MaterialScience">
+				<name>MaterialScience</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>499 178 587 233</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="WearableSensor">
+				<name>WearableSensor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>356 215 447 271</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="SyntheticBiology">
+				<name>SyntheticBiology</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>373 120 464 176</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Microscopy">
+				<name>Microscopy</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>359 378 428 421</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Robotics">
+				<name>Robotics</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>523 434 597 459</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="DNASequencingDataAnalytics">
+				<name>DNASequencingDataAnalytics</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>470 75 635 171</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Set_of_Problems">
+				<name>Set of Problems</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1047 599 1133 652</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Location">
+				<name>Location</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1369 525 1502 605</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotASingleTechnology">
+				<name>SingleTechnology</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>685 164 781 224</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NewPerspective">
+				<name>NotNewPerspective</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>794 104 884 160</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Biodata">
+				<name>NotBioData</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>837 196 887 227</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotDevelopingCountries">
+				<name>NotDevelopingCountries</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1818 303 1919 366</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotClearlyArticulated">
+				<name>NotClearlyArticulated</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1802 396 1913 465</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Lackproperplan">
+				<name>Lackproperplan</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1808 222 1894 275</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="onlyAInclrementalImporvement">
+				<name>onlyAInclrementalImporvement</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1636 289 1794 387</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="SafetyRisks">
+				<name>SafetyRisks</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1673 104 1743 147</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotbeneficalPractices">
+				<name>NotbeneficalPractices</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1784 125 1899 196</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotAGoodTech">
+				<name>NotAGoodTech</name>
+				<interior color="ff0000" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1702 440 1788 493</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Research_ThpyiinSoilandWaterMicrobes">
+				<name>Research_ThpyiinSoilandWaterMicrobes</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1016 46 1222 174</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="HowTyphoidCause">
+				<name>HowTyphoidCause</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1050 291 1152 354</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="AntibioticsInteraction">
+				<name>AntibioticsInteraction</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1006 213 1115 281</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="RoleOfEnviornment">
+				<name>RoleOfEnviornment</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1023 148 1127 213</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotFocussedonThypibut_Salmonella">
+				<name>NotFocussedonThypibut Salmonella</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1241 147 1375 230</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="typhoidWithoutEnviormentFocus">
+				<name>typhoidWithoutEnviormentFocus</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1192 57 1356 159</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="LabBasedStudyOnly">
+				<name>LabBasedStudyOnly</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1241 234 1350 302</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotFund">
+				<name>NotFund</name>
+				<interior color="ff0000" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1234 345 1289 379</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="ImporveCaregiverKnowledge">
+				<name>ImporveCaregiverKnowledge</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1480 450 1628 542</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="ImproveCaregiverConvinience">
+				<name>ImproveCaregiverConvinience</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1462 143 1618 240</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="HCI">
+				<name>HCI</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1397 443 1434 466</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="SocialEcoBehaviourResearch">
+				<name>SocialEcoBehaviourResearch</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1477 341 1636 443</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NotIncreaseBurdonForHealthWorker">
+				<name>NotIncreaseBurdonForHealthWorker</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1357 163 1543 279</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="MultipleCountrySetting">
+				<name>MultipleCountrySetting</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1434 273 1551 346</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="SMSOnly">
+				<name>SMSOnly</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1688 225 1747 261</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="NeedsFinancialIncentives">
+				<name>NeedsFinancialIncentives</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1796 508 1929 591</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_of_NotDevelopingCountries">
+				<name>notDevelopingCountries</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>667 253 768 316</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_of_NotClearlyArticulated">
+				<name>notClearlyArticulated</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>827 313 938 382</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Copy_of_Lackproperplan">
+				<name>lackproperplan</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>669 327 755 380</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="OnlyAInclrementalImporvement">
+				<name>OnlyAInclrementalImporvement</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>812 232 970 330</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="safetyRisks">
+				<name>safetyRisks</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>695 410 765 453</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="notbeneficalPractices">
+				<name>notbeneficalPractices</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>863 393 978 464</position>
+				<barchart active="true" width="173" height="54" />
+			</node>
+			<node id="Copy_of_NotAGoodTech">
+				<name>notAGoodTech</name>
+				<interior color="ff0000" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>691 521 777 574</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="cf">
+				<name>cf</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>856 964 883 992</position>
+			</node>
+			<node id="mr">
+				<name>mr</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>858 879 889 907</position>
+			</node>
+			<node id="TalkMoney">
+				<name>TalkMoney</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>922 956 994 984</position>
+			</node>
+			<node id="ffn">
+				<name>ffn</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>892 783 922 811</position>
+			</node>
+			<node id="cp">
+				<name>cp</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>911 754 941 782</position>
+			</node>
+			<node id="ss">
+				<name>ss</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>953 836 983 864</position>
+			</node>
+			<node id="sf">
+				<name>sf</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>972 896 999 924</position>
+			</node>
+			<node id="past">
+				<name>past</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>877 1316 927 1344</position>
+			</node>
+			<node id="ps">
+				<name>ps</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>892 1404 922 1432</position>
+			</node>
+			<node id="tp">
+				<name>tp</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1002 1388 1029 1416</position>
+			</node>
+			<node id="pa">
+				<name>pa</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1134 1365 1164 1393</position>
+			</node>
+			<node id="fbbb">
+				<name>fbbb</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1103 1302 1142 1330</position>
+			</node>
+			<node id="oii">
+				<name>oii</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1369 880 1397 908</position>
+			</node>
+			<node id="cs">
+				<name>cs</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1441 820 1494 886</position>
+			</node>
+			<node id="optsp">
+				<name>optsp</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1587 898 1632 926</position>
+			</node>
+			<node id="poh">
+				<name>poh</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1091 1178 1127 1206</position>
+			</node>
+			<node id="nsp">
+				<name>nsp</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>936 1130 972 1158</position>
+			</node>
+			<node id="pmoc">
+				<name>pmoc</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1219 848 1264 876</position>
+			</node>
+			<node id="sop">
+				<name>sop</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1077 667 1113 695</position>
+			</node>
+			<node id="ls">
+				<name>ls</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1246 1119 1272 1147</position>
+			</node>
+			<node id="a">
+				<name>a</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1328 1123 1352 1151</position>
+			</node>
+			<node id="r">
+				<name>r</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1343 1214 1365 1242</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
